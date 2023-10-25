@@ -1,11 +1,12 @@
 import React from 'react'
-//import VistaTmdb from './components/VistaTmdb'
+import TmdbMovies from './components/TmdbMovies'
+import VistaTmdb from './components/VistaTmdb'
 
 const App = () => {
   return (
-    <div>
-     <h1>REACT</h1> 
-    </div>
+    <>
+     <VistaTmdb />
+    </>
   )
 }
 
